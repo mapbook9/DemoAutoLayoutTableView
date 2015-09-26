@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EBD6FDB01B7ED33A0043AA9F /* imgSGCoupon.png in Resources */ = {isa = PBXBuildFile; fileRef = EBD6FDAE1B7ED33A0043AA9F /* imgSGCoupon.png */; };
+		EBD6FDB11B7ED33A0043AA9F /* imgSGCoupon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBD6FDAF1B7ED33A0043AA9F /* imgSGCoupon@2x.png */; };
+		EBD6FDB51B7ED5750043AA9F /* ic_hide.png in Resources */ = {isa = PBXBuildFile; fileRef = EBD6FDB21B7ED5750043AA9F /* ic_hide.png */; };
+		EBD6FDB61B7ED5750043AA9F /* ic_hide@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBD6FDB31B7ED5750043AA9F /* ic_hide@2x.png */; };
+		EBD6FDB71B7ED5750043AA9F /* ic_open.png in Resources */ = {isa = PBXBuildFile; fileRef = EBD6FDB41B7ED5750043AA9F /* ic_open.png */; };
+		EBD6FDBA1B7ED66B0043AA9F /* RMLTitileImageRightButton.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD6FDB91B7ED66B0043AA9F /* RMLTitileImageRightButton.m */; };
+		EBD6FDC21B7EDCE80043AA9F /* WesayTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD6FDC11B7EDCE80043AA9F /* WesayTableViewCell.m */; };
 		EBDA4BF21B7A1CBD00E31AD5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EBDA4BF11B7A1CBD00E31AD5 /* main.m */; };
 		EBDA4BF51B7A1CBD00E31AD5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EBDA4BF41B7A1CBD00E31AD5 /* AppDelegate.m */; };
 		EBDA4BF81B7A1CBD00E31AD5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBDA4BF71B7A1CBD00E31AD5 /* ViewController.m */; };
@@ -14,6 +21,7 @@
 		EBDA4BFD1B7A1CBD00E31AD5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBDA4BFC1B7A1CBD00E31AD5 /* Images.xcassets */; };
 		EBDA4C001B7A1CBD00E31AD5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBDA4BFE1B7A1CBD00E31AD5 /* LaunchScreen.xib */; };
 		EBDA4C0C1B7A1CBD00E31AD5 /* DemoTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EBDA4C0B1B7A1CBD00E31AD5 /* DemoTableViewTests.m */; };
+		EBDA4C241B7BA80C00E31AD5 /* ItemListGuideCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EBDA4C231B7BA80C00E31AD5 /* ItemListGuideCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +35,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EBD6FDAE1B7ED33A0043AA9F /* imgSGCoupon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imgSGCoupon.png; sourceTree = "<group>"; };
+		EBD6FDAF1B7ED33A0043AA9F /* imgSGCoupon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "imgSGCoupon@2x.png"; sourceTree = "<group>"; };
+		EBD6FDB21B7ED5750043AA9F /* ic_hide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_hide.png; sourceTree = "<group>"; };
+		EBD6FDB31B7ED5750043AA9F /* ic_hide@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_hide@2x.png"; sourceTree = "<group>"; };
+		EBD6FDB41B7ED5750043AA9F /* ic_open.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_open.png; sourceTree = "<group>"; };
+		EBD6FDB81B7ED66B0043AA9F /* RMLTitileImageRightButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMLTitileImageRightButton.h; sourceTree = "<group>"; };
+		EBD6FDB91B7ED66B0043AA9F /* RMLTitileImageRightButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMLTitileImageRightButton.m; sourceTree = "<group>"; };
+		EBD6FDC01B7EDCE80043AA9F /* WesayTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WesayTableViewCell.h; sourceTree = "<group>"; };
+		EBD6FDC11B7EDCE80043AA9F /* WesayTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WesayTableViewCell.m; sourceTree = "<group>"; };
 		EBDA4BEC1B7A1CBD00E31AD5 /* DemoTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBDA4BF01B7A1CBD00E31AD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EBDA4BF11B7A1CBD00E31AD5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +57,8 @@
 		EBDA4C051B7A1CBD00E31AD5 /* DemoTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBDA4C0A1B7A1CBD00E31AD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EBDA4C0B1B7A1CBD00E31AD5 /* DemoTableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoTableViewTests.m; sourceTree = "<group>"; };
+		EBDA4C221B7BA80C00E31AD5 /* ItemListGuideCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemListGuideCell.h; sourceTree = "<group>"; };
+		EBDA4C231B7BA80C00E31AD5 /* ItemListGuideCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemListGuideCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +79,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EBD6FDBB1B7ED67B0043AA9F /* CustomizeButton */ = {
+			isa = PBXGroup;
+			children = (
+				EBD6FDB81B7ED66B0043AA9F /* RMLTitileImageRightButton.h */,
+				EBD6FDB91B7ED66B0043AA9F /* RMLTitileImageRightButton.m */,
+			);
+			name = CustomizeButton;
+			sourceTree = "<group>";
+		};
+		EBD6FDBC1B7ED6920043AA9F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				EBD6FDB21B7ED5750043AA9F /* ic_hide.png */,
+				EBD6FDB31B7ED5750043AA9F /* ic_hide@2x.png */,
+				EBD6FDB41B7ED5750043AA9F /* ic_open.png */,
+				EBD6FDAE1B7ED33A0043AA9F /* imgSGCoupon.png */,
+				EBD6FDAF1B7ED33A0043AA9F /* imgSGCoupon@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		EBD6FDBD1B7ED6C50043AA9F /* CustomizeCell */ = {
+			isa = PBXGroup;
+			children = (
+				EBD6FDC01B7EDCE80043AA9F /* WesayTableViewCell.h */,
+				EBD6FDC11B7EDCE80043AA9F /* WesayTableViewCell.m */,
+				EBDA4C221B7BA80C00E31AD5 /* ItemListGuideCell.h */,
+				EBDA4C231B7BA80C00E31AD5 /* ItemListGuideCell.m */,
+			);
+			name = CustomizeCell;
+			sourceTree = "<group>";
+		};
+		EBD6FDBE1B7ED6E10043AA9F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EBD6FDBD1B7ED6C50043AA9F /* CustomizeCell */,
+				EBD6FDBB1B7ED67B0043AA9F /* CustomizeButton */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		EBD6FDBF1B7ED6FC0043AA9F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EBDA4BF61B7A1CBD00E31AD5 /* ViewController.h */,
+				EBDA4BF71B7A1CBD00E31AD5 /* ViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
 		EBDA4BE31B7A1CBD00E31AD5 = {
 			isa = PBXGroup;
 			children = (
@@ -81,10 +150,11 @@
 		EBDA4BEE1B7A1CBD00E31AD5 /* DemoTableView */ = {
 			isa = PBXGroup;
 			children = (
+				EBD6FDBF1B7ED6FC0043AA9F /* Controllers */,
+				EBD6FDBE1B7ED6E10043AA9F /* Views */,
+				EBD6FDBC1B7ED6920043AA9F /* Images */,
 				EBDA4BF31B7A1CBD00E31AD5 /* AppDelegate.h */,
 				EBDA4BF41B7A1CBD00E31AD5 /* AppDelegate.m */,
-				EBDA4BF61B7A1CBD00E31AD5 /* ViewController.h */,
-				EBDA4BF71B7A1CBD00E31AD5 /* ViewController.m */,
 				EBDA4BF91B7A1CBD00E31AD5 /* Main.storyboard */,
 				EBDA4BFC1B7A1CBD00E31AD5 /* Images.xcassets */,
 				EBDA4BFE1B7A1CBD00E31AD5 /* LaunchScreen.xib */,
@@ -200,8 +270,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				EBDA4BFB1B7A1CBD00E31AD5 /* Main.storyboard in Resources */,
+				EBD6FDB01B7ED33A0043AA9F /* imgSGCoupon.png in Resources */,
 				EBDA4C001B7A1CBD00E31AD5 /* LaunchScreen.xib in Resources */,
+				EBD6FDB71B7ED5750043AA9F /* ic_open.png in Resources */,
 				EBDA4BFD1B7A1CBD00E31AD5 /* Images.xcassets in Resources */,
+				EBD6FDB11B7ED33A0043AA9F /* imgSGCoupon@2x.png in Resources */,
+				EBD6FDB51B7ED5750043AA9F /* ic_hide.png in Resources */,
+				EBD6FDB61B7ED5750043AA9F /* ic_hide@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,8 +295,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				EBDA4BF81B7A1CBD00E31AD5 /* ViewController.m in Sources */,
+				EBD6FDBA1B7ED66B0043AA9F /* RMLTitileImageRightButton.m in Sources */,
 				EBDA4BF51B7A1CBD00E31AD5 /* AppDelegate.m in Sources */,
+				EBD6FDC21B7EDCE80043AA9F /* WesayTableViewCell.m in Sources */,
 				EBDA4BF21B7A1CBD00E31AD5 /* main.m in Sources */,
+				EBDA4C241B7BA80C00E31AD5 /* ItemListGuideCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,7 +377,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -337,7 +415,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -350,6 +428,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DemoTableView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -360,6 +439,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DemoTableView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -418,6 +498,7 @@
 				EBDA4C111B7A1CBD00E31AD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EBDA4C121B7A1CBD00E31AD5 /* Build configuration list for PBXNativeTarget "DemoTableViewTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +507,7 @@
 				EBDA4C141B7A1CBD00E31AD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
